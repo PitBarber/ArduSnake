@@ -1,6 +1,6 @@
 this is the BOM of this proyect:
 
-1x 2088 dot matrix red color 60.2*60.2mm maxtrix 8x8 matrix 5mm LED matrix
+1x 2088A/B dot maxtrix 8x8 matrix 3mm LED, red color
 2x 74HC595 ShiftRegister
 3x buttons
 3x Resistor 10Kohm
