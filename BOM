@@ -1,0 +1,11 @@
+this is the BOM of this proyect:
+
+1x 2088 dot matrix red color 60.2*60.2mm maxtrix 8x8 matrix 5mm LED matrix
+2x 74HC595 ShiftRegister
+3x buttons
+3x Resistor 10Kohm
+3x capacitor 100nF 
+1x Arduino
+1x buzzer
+
+all cable you will need.
