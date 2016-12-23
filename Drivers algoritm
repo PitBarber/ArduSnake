@@ -20,8 +20,10 @@ void refresh(int dato[8][8]) {
       j++;
     }
 
-    for (j = 0; j < 8; j++) {
-      y[j] = !dato[i][j];
+    if(encontrado=true){
+      for (j = 0; j < 8; j++) {
+        y[j] = !dato[i][j];
+      }
     }
     for (j = 0; j < 8; j++) {
       digitalWrite(SH_CP, LOW);
@@ -41,3 +43,7 @@ void refresh(int dato[8][8]) {
 
 take you array [8][8] and refresh line by line leds who must be ON.
 remember it drive your matrix up to down
+
+# Revisions 
+  Rev 1: last algoritm send a complementary data to the catodes of the matrix, but when there is nothing in a line,
+         sends 0's to all rows and all 1's to all columns using current for nothing.
