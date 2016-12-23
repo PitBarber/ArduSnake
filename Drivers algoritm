@@ -1,0 +1,43 @@
+With this algoritm you can control a 8x8 dot matrix using 2 74HC595
+
+
+void refresh(int dato[8][8]) {
+  bool  encontrado = false;
+  unsigned int i = 0;
+  unsigned int j = 0;
+
+  for (i = 0; i < 8; i++) {
+    digitalWrite(ST_CP, LOW);
+    encontrado = false;
+    for (j = 0; j < 8; j++)x[j] = DATO_X[j];
+    for (j = 0; j < 8; j++)y[j] = DATO_Y[j];
+    j = 0;
+    while (!encontrado && j < 8) {
+      if (dato[i][j] == 1) {
+        encontrado = true;
+        x[i] = 1;
+      }
+      j++;
+    }
+
+    for (j = 0; j < 8; j++) {
+      y[j] = !dato[i][j];
+    }
+    for (j = 0; j < 8; j++) {
+      digitalWrite(SH_CP, LOW);
+      digitalWrite(X_, x[j]);
+      digitalWrite(Y_, y[j]);
+      digitalWrite(SH_CP, HIGH);
+
+    }
+    digitalWrite(SH_CP, LOW);
+    digitalWrite(ST_CP, HIGH);
+
+
+  }
+}
+
+# How its work
+
+take you array [8][8] and refresh line by line leds who must be ON.
+remember it drive your matrix up to down
