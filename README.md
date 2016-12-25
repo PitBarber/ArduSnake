@@ -1,6 +1,9 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/PitBarber/ArduSnake/master/DFE27753-16EA-4046-82B0-1DEAE4ECBF42.jpg" width="500"/>
 </p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PitBarber/ArduSnake/master/ArduSnake.gif" width="500"/>
+</p>
 
 
 # ArduSnake
