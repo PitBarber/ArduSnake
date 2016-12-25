@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PitBarber/ArduSnake/master/DFE27753-16EA-4046-82B0-1DEAE4ECBF42.jpg" width="500"/>
+</p>
+
 
 # ArduSnake
 classical game of Snake implemented in arduino using led matrix and 74hc595 shiftRegisters
@@ -13,4 +17,7 @@ I will use a DC-DC to rise voltage up to 3.3V, maybe TPS61291, my objetive is: 1
 thank you for stay here reading this and be interested in mi proyect! :D
 
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PitBarber/ArduSnake/master/ArduSnake%20Scheme.PNG" width="900"/>
+</p>
 
