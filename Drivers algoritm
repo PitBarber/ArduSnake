@@ -1,4 +1,4 @@
-With this algoritm you can control a 8x8 dot matrix using 2 74HC595
+With this algoritm you can control an 8x8 dot matrix using 2 74HC595
 
 
 void refresh(int dato[8][8]) {
@@ -46,4 +46,4 @@ remember it drive your matrix up to down
 
 # Revisions 
   Rev 1: last algoritm send a complementary data to the catodes of the matrix, but when there is nothing in a line,
-         sends 0's to all rows and all 1's to all columns using current for nothing.
+         sends 0's to all rows and all 1's to all columns wasting current.
